@@ -1,0 +1,24 @@
+/* Crear tablas dinamicamente desde la consola
+
+    const start = 1;
+    const end   = 10;
+    for (let index = start; index <= end; index++) {
+        crearArchivoTabla( index )
+            .then( nombreArchivo => console.log( nombreArchivo, 'Creada con exito' ) )
+            .catch( error => console.log('Error =>', error) )
+        }
+    }
+    
+*/ Fin crear tablas dinamicamente desde la consola
+
+
+
+/* Recibiendo argumentos desde la consola nodejs puro
+
+    console.log('Argumentos =>',  process.argv);
+    const [ , , arg3 = 'base=0' ] = process.argv;
+    const [ , base = 0] = arg3.split('=');
+    console.log('base =>',  base);
+
+*/ Fin recibiendo argumentos desde la consola nodejs puro
+
